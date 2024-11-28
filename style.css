@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*navbar start*/
+.main-nav{
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background-color: #47663B;
+}
+.navbar img{
+width: 250px;
+}
+.navbar h1{
+    color: #E8ECD7;
+}
+/*navbar end*/
+
+/*break start*/
+.break{
+    width: 100%;
+    background-color: #EED3B1;
+    height: 50px;
+    margin-top: 10px;
+}
+/*break end*/
+
+/*country start*/
+.country{
+    width: 100%;
+    background-color: #E8ECD7;
+    margin-top: 10px;
+}
+.main-country{
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.country-menu{
+    width: 300px;
+    height: 35px;
+    color:#1F4529;
+}
+.date-day{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    width: 100%;
+}
+.date-day h3{
+    color: #1F4529;
+    font-weight: bold;
+}
+.btn{
+   width: 200px; 
+   margin-right: 10px;
+}
+.country-details{
+    text-align: center;
+    padding: 30px 0px;
+  background-color: #1F4529;
+  width: 100%;
+}
+.country-details h1{
+  color:#EED3B1
+}
+.slah{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    margin-top: 30px;
+    text-align: center;
+    column-gap: 40px;
+  
+}
+.arrange{
+    display: flex;
+    flex-direction: column;
+    border: #1F4529 1px solid;
+    border-radius: 30px;
+  
+}
+.arrange span{
+    color: #1F4529;
+    font-size: 30px;
+    font-weight: bold;
+}
+.main-footer{
+   background-color: #47663B; 
+   margin-top: 20px;
+   text-align: center;
+}
+.main-footer p,
+.main-footer i{
+    color: #EED3B1;
+    font-size: 20px;
+    font-weight: bold;
+}
+.mail{
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+ 
+    padding-top: 10px;
+}
+.mail i {
+    margin-right: 10px;
+    color: #E8ECD7;
+}
+
+
+/*country end*/
+
+
